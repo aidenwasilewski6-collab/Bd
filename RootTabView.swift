@@ -12,7 +12,7 @@ struct RootTabView: View {
     @EnvironmentObject private var router: NavRouter
 
     /// Which quick-action screen the centre FAB is presenting (nil = sheet closed).
-    @State private var quickAction: QuickAction?
+    @State private var quickAction: QuickAction? 
     /// Presents the Devices manager (pair / switch bands) when a screen asks the shell to open it.
     @State private var showDevices = false
     /// A routed v5 pillar screen (Insights hub / Lab Book / fused record / Rhythm) presented as a sheet
